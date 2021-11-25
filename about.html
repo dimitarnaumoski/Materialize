@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Import materialize.css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <!-- Font awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/video.css" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fictravel</title>
+  </head>
+
+  <body style="overflow: hidden">
+    <div class="navbar-fixed">
+      <nav class="transparent">
+        <div class="container">
+          <div class="nav-wrapper">
+            <a href="#" class="brand-logo"
+              ><img src="img/logo2.png" alt=""
+            /></a>
+            <a href="" data-target="mobile-nav" class="sidenav-trigger">
+              <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a href="index.html" class="">Почетна</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-nav">
+      <li>
+        <a href="index.html" class="">Почетна</a>
+      </li>
+    </ul>
+
+    <!-- Секција: За нас -->
+    <section class="section-about showcase">
+      <div class="video-container">
+        <video src="video.mp4" autoplay muted loop></video>
+      </div>
+      <div class="container">
+        <div class="row">
+          <h3 class="teal-text text-lighten-2">
+            За <span class="white-text">нас</span>
+          </h3>
+          <div class="col s12">
+            <p class="white-text flow-text">
+              Агенцијата Фиктравел е основана во 2021 година. Од самиот почеток
+              се одликува со сериозен пристап во полето на туризмот. Политиката
+              на работење на Фиктравел е фокусирана на креирање на ексклузивни
+              аранжмани, авио билети, корпоративен и бизнис туризам,
+              организирање на чартер летови кон најатрактивните летни и зимски
+              дестинации. Агенцијата Фиктравел потпиша договори со голем број на
+              авио компании за продавање на авио билети. Фиктравел како и сите
+              светски тур оператори се вклучи во процесот на издавање на
+              електронски авио билети, сегмент кој во последните четири години
+              се одликува со галопирачки подем и зазема значаен дел од
+              активностите на нашата агенција, со посветен тим на професионални
+              работници.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+      // Side Nav
+      const sideNav = document.querySelector('.sidenav');
+      M.Sidenav.init(sideNav, {});
+    </script>
+  </body>
+</html>

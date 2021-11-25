@@ -2,6 +2,12 @@
   margin: 5px 10px;
 }
 
+.section-follow .fa-4x:hover {
+  color: #3a3a3c;
+  transition: ease-in;
+  transition-duration: 0.3s;
+}
+
 .section-slider img {
   opacity: 0.7;
 }
